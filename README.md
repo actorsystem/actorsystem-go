@@ -30,7 +30,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/your-username/actorsystem-go"
+	"github.com/actorsystem/actorsystem-go"
 	"github.com/joho/godotenv"
 	"log"
 	"os"
