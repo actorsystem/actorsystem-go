@@ -1,4 +1,4 @@
-module actorsystem/actorsystem-go
+module github.com/actorsystem/actorsystem-go
 
 go 1.21.4
 
