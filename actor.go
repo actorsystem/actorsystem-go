@@ -108,7 +108,7 @@ func (a *Actor) Start(amqpURI string) error {
 				}
 			case <-sig:
 				log.Println("Received interrupt. Shutting down...")
-				return
+				os.Exit(0)
 			}
 		}
 	}()
